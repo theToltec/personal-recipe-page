@@ -17,9 +17,7 @@ html {
   *::after {
     box-sizing: inherit;
   }
-
-
-/* HEADER START */
+/* --------------------HEADER Start-------------------- */
 header {
     color: #fff;
     text-align: center;
@@ -34,9 +32,9 @@ header img {
 nav {
     text-align: center;
 }
-/* HEADER END */
+/* --------------------HEADER End-------------------- */
 
-/* INDEX.HTML START */
+/* --------------------INDEX Start-------------------- */
 main {
     margin: 20px;
     display: flex;
@@ -75,10 +73,9 @@ main {
   height: 1px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #000000a1, rgba(255, 255, 255, 0));
 }
+/* --------------------INDEX End-------------------- */
 
-/* INDEX.HTML END */
-
-/* MAIN START */
+/* --------------------CATEGORIES Start-------------------- */
 .container {
     display: flex;
     flex-direction: row;
@@ -121,10 +118,9 @@ main {
 .recipe-box:hover {
     background-color: rgba(105, 105, 105, 0.295);
 }
+/* --------------------CATEGORIES eND-------------------- */
 
-/* MAIN END */
-
-/* RECIPES START */
+/* --------------------RECIPES Start-------------------- */
 .recipe-main {
     display: flex;
     flex-direction: row;
@@ -146,24 +142,17 @@ main {
     font-size: 115%;
 }
 
-#description {
+#description, #ingredients, #directions {
     padding: 5px;
     margin-bottom: 15px;
 }
 
-#ingredients {
-    padding: 5px;
-    margin-bottom: 15px;
+#ingredients li, #directions li {
+    line-height: 1.4em;
 }
+/* --------------------RECIPES End-------------------- */
 
-#directions {
-    padding: 5px;
-    margin-bottom: 15px;
-}
-
-/* RECIPES END */
-
-/* FOOTER START */
+/* --------------------FOOTER Start-------------------- */
 footer {
     background-color: #33333363;
     color: #fff;
@@ -173,9 +162,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
-/* FOOTER END */
+/* --------------------Footer End-------------------- */
 
-/* MEDIA QUERY START */
+/* --------------------MEDIA QUERIES Start-------------------- */
 @media screen and (max-width: 1919px) {
    
     .categories {
@@ -269,4 +258,4 @@ footer {
         margin-top: 10px;
     }
 }
-/* MEDIA QUERY END */
+/* --------------------MEDIA QUERIES End-------------------- */
