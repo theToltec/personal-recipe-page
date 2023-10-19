@@ -67,7 +67,14 @@ main {
 .categories a:hover {
     text-decoration: underline;
     text-decoration-color: rgb(124, 27, 27);
-}    
+}   
+
+.main-hr {
+  width: 60%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #000000a1, rgba(255, 255, 255, 0));
+}
 
 /* INDEX.HTML END */
 
@@ -226,6 +233,10 @@ footer {
         text-decoration: none;
         color: black;
         font-size: 115%;
+    }
+
+    #thank-you {
+        font-size: 1em;
     }
 }
 
